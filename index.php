@@ -9,9 +9,13 @@ echo "The Past";}
 elseif ($date = $tar = 0){
 echo "Oops";}
 
-echo "strpos($date, "/")";
+echo strpos($date, "/");// 4- error
 
-echo" .count($date) ";
+echo" .count($date) ";// 5- works
+
+echo strlen ($date); // 6 -works
+
+//echo substr(trin($date), -2); //8- 
 
 $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
