@@ -1,6 +1,13 @@
 <?php
-$date =  date('Y-m-d', time());
+$date =  date('Y/m/d', time());
 echo "The value of \$date: ".$date."<br>";
+
+if ($date = $tar >0); 
+echo "The Future";
+elseif ($date = $tar <0);
+echo "The Past";
+else ($date = $tar = 0);
+echo "Oops";
 
 $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
