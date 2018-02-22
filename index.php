@@ -17,6 +17,8 @@ echo strlen ($date); // 6 -works
 
 echo substr(trim($date), -2); //8- 
 
+if ((($value% 4) ==0) && ((value % 100) != 0) || (($value % 400) == 0));
+
 $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
 
